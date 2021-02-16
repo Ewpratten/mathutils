@@ -25,9 +25,9 @@ public enum Units {
     /**
      * Converts a measurement into specified units
      *
-     * @param value      The value of the measurement e.g. 10
-     * @param units_from The unit type to convert from e.g. UNITS.MILLIMETRE
-     * @param units_to   The unit type to convert to e.g. UNITS.INCH
+     * @param value The value of the measurement e.g. 10
+     * @param from  The unit type to convert from e.g. UNITS.MILLIMETRE
+     * @param to    The unit type to convert to e.g. UNITS.INCH
      * @return Converted value
      */
     public static double convert(double value, Units from, Units to) {
@@ -40,9 +40,9 @@ public enum Units {
      * Converts a measurement into specified units. NOTE: This uses casting, and may
      * behave unexpectedly
      *
-     * @param value      The value of the measurement e.g. 10
-     * @param units_from The unit type to convert from e.g. UNITS.MILLIMETRE
-     * @param units_to   The unit type to convert to e.g. UNITS.INCH
+     * @param value The value of the measurement e.g. 10
+     * @param from  The unit type to convert from e.g. UNITS.MILLIMETRE
+     * @param to    The unit type to convert to e.g. UNITS.INCH
      * @return Converted value
      */
     public static int convert(int value, Units from, Units to) {
@@ -53,9 +53,9 @@ public enum Units {
      * Converts a measurement into specified units. NOTE: This uses casting, and may
      * behave unexpectedly
      *
-     * @param value      The value of the measurement e.g. 10
-     * @param units_from The unit type to convert from e.g. UNITS.MILLIMETRE
-     * @param units_to   The unit type to convert to e.g. UNITS.INCH
+     * @param value The value of the measurement e.g. 10
+     * @param from  The unit type to convert from e.g. UNITS.MILLIMETRE
+     * @param to    The unit type to convert to e.g. UNITS.INCH
      * @return Converted value
      */
     public static long convert(long value, Units from, Units to) {
@@ -66,9 +66,9 @@ public enum Units {
      * Converts a measurement into specified units. NOTE: This uses casting, and may
      * behave unexpectedly
      *
-     * @param value      The value of the measurement e.g. 10
-     * @param units_from The unit type to convert from e.g. UNITS.MILLIMETRE
-     * @param units_to   The unit type to convert to e.g. UNITS.INCH
+     * @param value The value of the measurement e.g. 10
+     * @param from  The unit type to convert from e.g. UNITS.MILLIMETRE
+     * @param to    The unit type to convert to e.g. UNITS.INCH
      * @return Converted value
      */
     public static float convert(float value, Units from, Units to) {

@@ -67,6 +67,7 @@ public class Scale {
      * @param value Value to clamp.
      * @param low   The lower boundary to which to clamp value.
      * @param high  The higher boundary to which to clamp value.
+     * @return Clamped value
      */
     public static int clamp(int value, int low, int high) {
         return Math.max(low, Math.min(value, high));
@@ -78,6 +79,7 @@ public class Scale {
      * @param value Value to clamp.
      * @param low   The lower boundary to which to clamp value.
      * @param high  The higher boundary to which to clamp value.
+     * @return Clamped value
      */
     public static long clamp(long value, long low, long high) {
         return Math.max(low, Math.min(value, high));
@@ -89,6 +91,7 @@ public class Scale {
      * @param value Value to clamp.
      * @param low   The lower boundary to which to clamp value.
      * @param high  The higher boundary to which to clamp value.
+     * @return Clamped value
      */
     public static double clamp(double value, double low, double high) {
         return Math.max(low, Math.min(value, high));
@@ -100,6 +103,7 @@ public class Scale {
      * @param value Value to clamp.
      * @param low   The lower boundary to which to clamp value.
      * @param high  The higher boundary to which to clamp value.
+     * @return Clamped value
      */
     public static float clamp(float value, float low, float high) {
         return Math.max(low, Math.min(value, high));
